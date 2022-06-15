@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+
+
+.container{
+    position:relative;
+    width: 550px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    background: #1F2937;
+    border-radius: 10px;
+}
+
+#heading{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+}
+#heading2{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 150px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #10B981;
+
+}
+p{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    background: #10B981;
+    /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    
+}
+hr{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+    border: 1px solid #2F3E53;
+
+}
+#password1{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    
+}
+#password2{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+}
+#pass1-text{
+    position: relative;
+    width: 180px;
+    height: 32px;
+    left: auto;
+    top: auto;
+    margin-top: 2px;
+    margin-left: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+
+}
+#pass2-text{
+    position: relative;
+    width: 192px;
+    height: 32px;
+    left: auto;
+    top: auto;
+    margin-top: 2px;
+    margin-left: 11px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+#copy-message{
+    font-size: 5pt;
+    color: white;
+    margin-top: 160px;
+}
+#pass-length{
+    width: 182px;
+    margin-top: 320px;
+    margin-left: 52px;
+    background-color:#10B981;
+    color: white;
+}
